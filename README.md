@@ -4,7 +4,7 @@ A sleek and functional user management dashboard built with React, showcasing CR
 
 ## Demo
 
-[Live Demo](https://your-deployed-app.com)]
+(https://your-deployed-app.com)
 
 ## Features
 
@@ -28,7 +28,7 @@ A sleek and functional user management dashboard built with React, showcasing CR
 1.  Clone the repository:
 
     ```
-    git clone <your_repository_url>
+    git clone https://github.com/chandanaganji/user-management-db
     ```
 
 2.  Navigate to the project:
