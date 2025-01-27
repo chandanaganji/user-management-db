@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #e0f2f7, #bbdefb); /* Gradient background */
+  color: #333; /* Darker text for better contrast */
+}
+
+.header {
+  background: linear-gradient(to right, #673ab7, #3f51b5);
+  color: white;
+  padding: 1.5em; /* Increased padding */
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white footer */
+  padding: 1em;
+  text-align: center;
+  margin-top: auto;
+  backdrop-filter: blur(5px); /* Apply blur to the background */
+}
+@media (max-width: 768px) {
+  .user-list {
+      width: 95%;
+  }
+  .add-user-form input {
+      width: 100%; /* Stack inputs vertically on smaller screens */
+      margin-bottom: 0.5em;
+  }
+  table {
+      font-size: 0.8em; /* Smaller font size for tables */
+  }
+  th, td {
+      padding: 0.5em;
+  }
+}
